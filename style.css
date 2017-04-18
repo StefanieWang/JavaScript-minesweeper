@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.difficulty {
+	width: 260px;
+	margin: 20px auto;
+}
+
+button {
+	font-family: cursive;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 10px;
+	border-radius: 2px;
+}
+.show {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.show div{
+	font-family: cursive;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.restart {
+	color: blue;
+	cursor: pointer;
+}
+
+.playBoard {
+	position: relative;
+	
+	
+}
+.board {	
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 180px;
+	height: 180px;
+	background: #cccccc;
+}
+
+.square {
+	float: left;
+	border: 2px outset gray;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.mine {
+	
+}
+
+.blank {
+	background: #fff;
+}
+
+.checked {
+
+}
+
+.gameOver {
+	display: none;
+	position: absolute;
+	z-index: 99;
+	top: 20px;
+	left: 40%;
+	width: 20%;
+	height: 100px;
+	border-radius: 2px;
+	background: rgba(255, 255, 0, 0.8);
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 35px;
+	
+}
